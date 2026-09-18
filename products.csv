@@ -1,0 +1,9 @@
+product_id,name,category,description,price,image
+P001,Pearl Milk Tea,Milk Tea,Milk tea with chewy tapioca pearls,7.00,pearl-milk-tea.jpg
+P002,Mango Pomelo Sago,Fruit Tea,"Mango, pomelo and sago drink",8.00,mango-pomelo-sago.jpg
+P003,Matcha Milk Tea,Matcha,Matcha-based milk tea,7.50,matcha-latte.jpg
+P004,Roasted Milk Tea,Specialty,Roasted milk tea with a rich flavour,7.00,roasted-milk-tea.jpg
+P005,Lemon Fruit Tea,Fruit Tea,Refreshing lemon fruit tea,6.50,lemon-fruit-tea.jpg
+P006,Taro Ball Milk Tea,Milk Tea,Taro milk tea with chewy taro balls,7.50,taro-ball-milk-tea.jpg
+P007,Jasmine Green Milk Tea,Milk Tea,Jasmine green tea with milk,7.00,jasmine-green-milk.jpg
+P008,Signature Milk Tea,Milk Tea,Classic creamy milk tea,6.50,signature-milk-tea.jpg
