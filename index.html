@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Cha Milk Tea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>San Cha</h1>
+            <p>Three Teas, Make your day</p>
+        </div>
+
+        <nav>
+            <a href="#products">Menu</a>
+            <a href="#order">Order</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Find Your Perfect Tea</h2>
+            <p>Choose from our Milk tea, Fruit tea, Matcha and specialty drinks.</p>
+            <a href="#products" class="hero-button">View Menu</a>
+        </div>
+    </section>
+
+    <main>
+
+        <section id="products">
+            <h2>Our Drinks</h2>
+
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="Search drinks...">
+
+                <select id="categoryFilter">
+                    <option value="All">All Categories</option>
+                    <option value="Milk Tea">Milk Tea</option>
+                    <option value="Fruit Tea">Fruit Tea</option>
+                    <option value="Matcha">Matcha</option>
+                    <option value="Specialty">Specialty</option>
+                </select>
+            </div>
+
+            <div id="productGrid" class="product-grid"></div>
+        </section>
+
+
+        <section id="order" class="order-section">
+
+            <h2>Your Order</h2>
+
+            <div id="cartItems">
+                <p>Your order is empty.</p>
+            </div>
+
+            <div class="order-total">
+                Total: $<span id="totalPrice">0.00</span>
+            </div>
+
+            <form id="orderForm">
+
+                <label for="customerName">Name</label>
+                <input type="text" id="customerName" required>
+
+                <label for="customerEmail">Email</label>
+                <input type="email" id="customerEmail" required>
+
+                <button type="submit">
+                    Submit Order
+                </button>
+
+            </form>
+
+            <div id="orderMessage"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>San Cha Milk Tea</p>
+        <p>Student: s4087635</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
